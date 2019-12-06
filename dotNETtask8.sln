@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29418.71
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotNETtask8", "dotNETtask8\dotNETtask8.csproj", "{C9552EA3-E940-49B7-BDDF-420AA5C8CD57}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C9552EA3-E940-49B7-BDDF-420AA5C8CD57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9552EA3-E940-49B7-BDDF-420AA5C8CD57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9552EA3-E940-49B7-BDDF-420AA5C8CD57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9552EA3-E940-49B7-BDDF-420AA5C8CD57}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3EE2F4E7-B086-4B70-8771-61FD19C38801}
+	EndGlobalSection
+EndGlobal
