@@ -19,8 +19,9 @@ namespace dotNETtask8
             Console.WriteLine("Находим значения х, при которых: \n");
 
             Console.WriteLine($"1.  0.5 = sin(x) на отрезке [0.1, 1.3]");
-            Console.WriteLine($" Ответ: x = {inverser.Inverse(0.1, 1.3, Math.Sin, 0.5, epsilon)}\n");
-
+            Console.WriteLine($" Ответ: x = {inverser.Inverse(0.1, 1.3, delegate(double x){ return Math.Sin(x);}, 0.5, epsilon)}\n");
+            
+            
             Console.WriteLine($"2.  8 = x^2 + sin(x-2) на отрезке [2.5, 3.5]");
             Console.WriteLine($" Ответ: x = {inverser.Inverse(2.5, 3.5, x => x * x + Math.Sin(x - 2), 8, epsilon)}\n");
 
